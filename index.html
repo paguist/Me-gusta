@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -17,7 +17,7 @@
     <div class="main">
         <div class="col-izq">
             <div class="perfil">
-                <img src="./css/fotodeperfil.png" class="fotodeperfil">
+                <img src="./css/fotodeperfil.png" class="fotodeperfil" alt="foto-de-perfil">
                 <a href="#">Add on avatar</a>
                 <h3>James Doe</h3>
             </div>
@@ -29,8 +29,8 @@
                         <h4 class="posteo-Amigo">Neil M</h4>
                     </div>
                     <div class="posteos-head2">
-                        <p class="posteo-likes">9 like(s) </p>
-                        <button type="submit" class="boton-like">Like</button>
+                        <p class="posteo-likes"><span class="cantidad-likes">9</span> like(s)</p>
+                        <button type="submit" class="boton-like" onclick="aumentarLikes(this)">Like</button>
                     </div>
                 </div>
                 <div class="posteos-texto">
@@ -43,8 +43,8 @@
                         <h4 class="posteo-Amigo">Nichole K</h4>
                     </div>
                     <div class="posteos-head2">
-                        <p class="posteo-likes">12 like(s)</p>
-                        <button type="submit" class="boton-like">Like</button>
+                        <p class="posteo-likes"><span class="cantidad-likes">12</span> like(s)</p>
+                        <button type="submit" class="boton-like" onclick="aumentarLikes(this)">Like</button>
                     </div>
                 </div>
                 <div class="posteos-texto">
@@ -57,8 +57,8 @@
                         <h4 class="posteo-Amigo">Jim R</h4>
                     </div>
                     <div class="posteos-head2">
-                        <p class="posteo-likes">9 like(s) </p>
-                        <button type="submit" class="boton-like">Like</button>
+                        <p class="posteo-likes"><span class="cantidad-likes">9</span> like(s)</p>
+                        <button type="submit" class="boton-like" onclick="aumentarLikes(this)">Like</button>
                     </div>
                 </div>
                 <div class="posteos-texto">
@@ -67,6 +67,7 @@
             </div>
         </div>
     </div>
+    <script src="./script/index.js"></script>
 </body>
 
 </html>
